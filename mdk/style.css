@@ -1,0 +1,52 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    font-family: sans-serif;
+}
+
+.input-area {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addButton {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+#taskList li button {
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    font-size: 1.2em;
+}
